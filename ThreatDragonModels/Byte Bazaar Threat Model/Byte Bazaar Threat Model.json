@@ -1,0 +1,38 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "Byte Bazaar Threat Model",
+    "owner": "lkotlus",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "falmutairi"
+      },
+      {
+        "name": "mallam"
+      },
+      {
+        "name": "nhakami"
+      },
+      {
+        "name": "lkotlus"
+      },
+      {
+        "name": "tnguyen"
+      },
+      {
+        "name": "zshariff"
+      },
+      {
+        "name": "nsharma"
+      }
+    ],
+    "diagrams": [],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
