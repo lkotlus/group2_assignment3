@@ -1072,9 +1072,18 @@
           }
         ],
         "description": "High level overview of the system"
+      },
+      {
+        "id": 2,
+        "title": "DFD Level 1 - User Account Management",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": []
       }
     ],
-    "diagramTop": 2,
+    "diagramTop": 3,
     "reviewer": "",
     "threatTop": 0
   }
