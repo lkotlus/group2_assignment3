@@ -2878,9 +2878,18 @@
             "zIndex": 12
           }
         ]
+      },
+      {
+        "id": 3,
+        "title": "DFD Level 1 - Product Catalog and Browsing",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": []
       }
     ],
-    "diagramTop": 3,
+    "diagramTop": 4,
     "reviewer": "",
     "threatTop": 0
   }
