@@ -2908,8 +2908,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "e45d7536-59d3-442d-a797-8ec0fcaaf2ba",
             "zIndex": -1,
+            "id": "e45d7536-59d3-442d-a797-8ec0fcaaf2ba",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Product Catalog System",
