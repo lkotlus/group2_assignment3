@@ -1090,13 +1090,18 @@
               "width": 430,
               "height": 570
             },
+            "attrs": {
+              "label": {
+                "text": "Byte Bazaar"
+              }
+            },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "8d1afee4-017f-4612-87b8-5917a6706f98",
             "zIndex": -1,
+            "id": "8d1afee4-017f-4612-87b8-5917a6706f98",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "Byte Bazaar",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -1123,6 +1128,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -1206,7 +1212,6 @@
               ]
             },
             "id": "704c73bf-6ca0-484e-8c02-d646ebf7042d",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Customer",
@@ -1240,6 +1245,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -1323,7 +1329,6 @@
               ]
             },
             "id": "1e5efe1e-b9cd-4c85-a0a4-59623a410a1c",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Register",
@@ -1360,6 +1365,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -1443,7 +1449,6 @@
               ]
             },
             "id": "6c69226d-a35c-4bfc-9440-454f96ba23fd",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Manage\nProfile",
@@ -1480,6 +1485,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -1563,7 +1569,6 @@
               ]
             },
             "id": "997c1b5c-0d84-4bdf-bb52-420b69b1d962",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Login",
@@ -1600,6 +1605,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -1683,7 +1689,6 @@
               ]
             },
             "id": "4bd966ab-bd7d-497f-a256-ccbd836ab276",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Request to \nReset Password",
@@ -1723,6 +1728,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -1806,7 +1812,6 @@
               ]
             },
             "id": "1d956b62-5bfd-4fb4-943b-d59639cf02ae",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "Byte Bazaar\nDB",
@@ -2658,6 +2663,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -2741,7 +2747,6 @@
               ]
             },
             "id": "aac60443-8ba3-4a32-b127-026535f4696a",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Validate\nEmail Format",
@@ -2778,6 +2783,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -2874,8 +2880,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 12
+            }
           }
         ]
       },
