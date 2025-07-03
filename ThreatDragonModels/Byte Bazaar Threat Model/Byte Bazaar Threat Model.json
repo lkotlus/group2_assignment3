@@ -2894,6 +2894,32 @@
         "cells": [
           {
             "position": {
+              "x": 545.9999999999989,
+              "y": 160.00000000000273
+            },
+            "size": {
+              "width": 590,
+              "height": 330
+            },
+            "attrs": {
+              "label": {
+                "text": "Product Catalog System"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "e45d7536-59d3-442d-a797-8ec0fcaaf2ba",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Product Catalog System",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 240,
               "y": 300
             },
@@ -2913,6 +2939,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -2996,7 +3023,6 @@
               ]
             },
             "id": "7e767c51-18dd-49f5-a42a-9abf769bd087",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Customer",
@@ -3030,6 +3056,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -3113,7 +3140,6 @@
               ]
             },
             "id": "1b7b73f2-14e1-4b0f-ab79-9de1300076e7",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Post\nProduct",
@@ -3150,6 +3176,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -3233,7 +3260,6 @@
               ]
             },
             "id": "5c38355e-26b6-4ef8-a6d6-851f8b8cb1af",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Search and\nFilter Products",
@@ -3270,6 +3296,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -3353,7 +3380,6 @@
               ]
             },
             "id": "e88129eb-528b-49a0-8028-f1228d343d66",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Seller",
@@ -3387,6 +3413,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -3470,7 +3497,6 @@
               ]
             },
             "id": "c4d2be82-9b87-460d-8aff-dc0d08f30fd1",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Get Product\nPage",
@@ -3510,6 +3536,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -3593,7 +3620,6 @@
               ]
             },
             "id": "2188eddd-3941-4d02-8da1-f099a6ec677e",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
               "name": "Byte Bazaar\nDB",
@@ -3900,6 +3926,149 @@
                 "y": 330
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request Page\nvia HTTP",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Request Page\nvia HTTP"
+            ],
+            "id": "603e40ef-0851-4c26-b121-91f55d8bedfe",
+            "source": {
+              "cell": "7e767c51-18dd-49f5-a42a-9abf769bd087",
+              "port": "4bc1f3be-9578-4278-bc16-a2e8a774b7b5"
+            },
+            "target": {
+              "cell": "c4d2be82-9b87-460d-8aff-dc0d08f30fd1",
+              "port": "2445595c-284b-4ade-ae21-2854ae16a630"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Page via HTTP",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Page via HTTP"
+            ],
+            "id": "b5296f03-1217-4ee5-882d-b421e94b4b6c",
+            "source": {
+              "cell": "c4d2be82-9b87-460d-8aff-dc0d08f30fd1",
+              "port": "2445595c-284b-4ade-ae21-2854ae16a630"
+            },
+            "target": {
+              "cell": "7e767c51-18dd-49f5-a42a-9abf769bd087",
+              "port": "4bc1f3be-9578-4278-bc16-a2e8a774b7b5"
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Product Data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Product Data"
+            ],
+            "id": "f5190f98-0ff1-4e51-9a39-114ec06404e2",
+            "source": {
+              "cell": "2188eddd-3941-4d02-8da1-f099a6ec677e",
+              "port": "b561f1c9-0e3c-4699-9d47-31c352374e20"
+            },
+            "target": {
+              "cell": "c4d2be82-9b87-460d-8aff-dc0d08f30fd1",
+              "port": "5c631251-0c5b-4a52-88f1-fa14454a5abe"
+            },
+            "vertices": []
           }
         ]
       },
