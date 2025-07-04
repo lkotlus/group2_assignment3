@@ -7641,6 +7641,52 @@
               "port": "29839238-b3ca-47fe-99a4-fe6437ddcfa0"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Message Data\nvia HTTP",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Message Data\nvia HTTP"
+            ],
+            "id": "eb7a4de8-0363-45fe-aafa-764ac6dd2d5e",
+            "source": {
+              "cell": "f8c51d4e-34e9-438f-8bbc-7037032dff40",
+              "port": "4f0815f9-9209-482f-be70-1405470becb9"
+            },
+            "target": {
+              "cell": "f67e0925-b3d9-4ecb-b95c-000c6becb648",
+              "port": "650023b0-0ede-4c8b-8017-ab806bc26f67"
+            },
+            "vertices": []
           }
         ]
       },
