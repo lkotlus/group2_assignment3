@@ -6690,6 +6690,42 @@
         "version": "2.4.1",
         "cells": [
           {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "01009028-7a05-4a67-b525-ae2455f86960",
+            "zIndex": 0,
+            "source": {
+              "cell": "5d4e8fae-f5a5-463a-a99e-dd9acc6cbfca",
+              "port": "4f0815f9-9209-482f-be70-1405470becb9"
+            },
+            "target": {
+              "x": 1020,
+              "y": 460
+            },
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            }
+          },
+          {
             "position": {
               "x": 280,
               "y": 220
