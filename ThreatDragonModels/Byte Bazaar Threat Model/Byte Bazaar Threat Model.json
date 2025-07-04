@@ -6692,11 +6692,11 @@
           {
             "position": {
               "x": 612,
-              "y": 69
+              "y": 69.00000000000128
             },
             "size": {
-              "width": 128,
-              "height": 60
+              "width": 510,
+              "height": 360
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -6708,6 +6708,13 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
