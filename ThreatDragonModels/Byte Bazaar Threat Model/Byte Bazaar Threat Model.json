@@ -6963,7 +6963,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Submit\nContact Form"
+                "text": "Message with\nWeb Socket"
               },
               "body": {
                 "stroke": "#333333",
@@ -7059,7 +7059,7 @@
             "id": "f8c51d4e-34e9-438f-8bbc-7037032dff40",
             "data": {
               "type": "tm.Process",
-              "name": "Submit\nContact Form",
+              "name": "Message with\nWeb Socket",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
