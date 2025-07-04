@@ -7198,8 +7198,8 @@
           },
           {
             "position": {
-              "x": 638.75,
-              "y": 570
+              "x": 830,
+              "y": 540
             },
             "size": {
               "width": 112.5,
@@ -7419,7 +7419,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -7436,7 +7436,7 @@
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
@@ -7546,7 +7546,12 @@
               "cell": "f67e0925-b3d9-4ecb-b95c-000c6becb648",
               "port": "650023b0-0ede-4c8b-8017-ab806bc26f67"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 850,
+                "y": 500
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -7590,7 +7595,7 @@
             },
             "target": {
               "cell": "f67e0925-b3d9-4ecb-b95c-000c6becb648",
-              "port": "59b7fc5f-2fb4-4c52-b34a-bf28b3ec3698"
+              "port": "650023b0-0ede-4c8b-8017-ab806bc26f67"
             },
             "vertices": [
               {
