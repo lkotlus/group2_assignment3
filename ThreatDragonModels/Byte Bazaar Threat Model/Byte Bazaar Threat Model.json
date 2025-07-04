@@ -7568,7 +7568,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Contact Form\nData via HTTP",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -7581,7 +7581,7 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "Contact Form\nData via HTTP"
             ],
             "id": "fb2b7177-ca0e-4722-8dad-9bc1a32a1d8d",
             "source": {
