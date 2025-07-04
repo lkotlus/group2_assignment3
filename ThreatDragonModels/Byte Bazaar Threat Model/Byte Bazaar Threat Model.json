@@ -7596,14 +7596,17 @@
           },
           {
             "position": {
-              "x": 1050,
-              "y": 560
+              "x": 1005,
+              "y": 310
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 90,
+              "height": 90
             },
             "attrs": {
+              "text": {
+                "text": "Get\nContact Form"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -7698,7 +7701,7 @@
             "zIndex": 11,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Get\nContact Form",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
