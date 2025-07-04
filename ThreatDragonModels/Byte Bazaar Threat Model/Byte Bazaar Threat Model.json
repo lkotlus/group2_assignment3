@@ -6698,23 +6698,21 @@
               "width": 510,
               "height": 360
             },
+            "attrs": {
+              "label": {
+                "text": "Customer Support System"
+              }
+            },
             "visible": true,
             "shape": "trust-boundary-box",
             "id": "1762542e-2614-45ad-ae46-ef0b7259b33d",
             "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "Customer Support System",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
