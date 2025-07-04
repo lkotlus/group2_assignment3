@@ -6691,6 +6691,27 @@
         "cells": [
           {
             "position": {
+              "x": 612,
+              "y": 69
+            },
+            "size": {
+              "width": 128,
+              "height": 60
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "1762542e-2614-45ad-ae46-ef0b7259b33d",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 280,
               "y": 220
             },
@@ -7031,126 +7052,6 @@
               ]
             },
             "id": "f8c51d4e-34e9-438f-8bbc-7037032dff40",
-            "data": {
-              "type": "tm.Process",
-              "name": "Submit\nContact Form",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 990,
-              "y": 310
-            },
-            "size": {
-              "width": 90,
-              "height": 90
-            },
-            "attrs": {
-              "text": {
-                "text": "Submit\nContact Form"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 4,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "5875c6bd-af45-4686-91f4-5456e20312a3"
-                },
-                {
-                  "group": "right",
-                  "id": "0ef8b5fd-5d24-48d5-b53d-22af92cee0c9"
-                },
-                {
-                  "group": "bottom",
-                  "id": "4f0815f9-9209-482f-be70-1405470becb9"
-                },
-                {
-                  "group": "left",
-                  "id": "29839238-b3ca-47fe-99a4-fe6437ddcfa0"
-                }
-              ]
-            },
-            "id": "5d4e8fae-f5a5-463a-a99e-dd9acc6cbfca",
             "data": {
               "type": "tm.Process",
               "name": "Submit\nContact Form",
@@ -7547,52 +7448,6 @@
             "target": {
               "cell": "e74cb6f5-085e-4fee-957d-51c835a11ef0",
               "port": "1bcc888c-23b3-4b48-be6d-b1d1faeb94b4"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Contact Form \nData",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Contact Form \nData"
-            ],
-            "id": "44410c2b-bf6d-4094-8dd0-ae9f1ed27399",
-            "source": {
-              "cell": "e74cb6f5-085e-4fee-957d-51c835a11ef0",
-              "port": "006a9466-f5d7-4eaf-b238-2af4a555ac3e"
-            },
-            "target": {
-              "cell": "5d4e8fae-f5a5-463a-a99e-dd9acc6cbfca",
-              "port": "5875c6bd-af45-4686-91f4-5456e20312a3"
             },
             "vertices": []
           },
