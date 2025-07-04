@@ -6705,8 +6705,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "1762542e-2614-45ad-ae46-ef0b7259b33d",
             "zIndex": -1,
+            "id": "1762542e-2614-45ad-ae46-ef0b7259b33d",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Customer Support System",
@@ -7615,6 +7615,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -7698,7 +7699,6 @@
               ]
             },
             "id": "0da9d1d1-a052-4f6a-8dd1-16b1a5b372a5",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Get\nContact Form",
